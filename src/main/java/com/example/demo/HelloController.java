@@ -15,4 +15,8 @@ public class HelloController {
     public String about() {
         return "This is a simple Spring Boot project.";
     }
+    @GetMapping("/hello")
+    public String sayHello() {
+        return "Hello World!";
+    }
 }
